@@ -1,0 +1,83 @@
+.termosBg{
+  width: 100%;
+  background-color: var(--c11);
+}
+
+.termosContent{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.75rem;
+  margin-bottom: 80px;
+}
+
+.termos{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 7.5rem;
+}
+
+.termos h1{
+  padding-bottom: 1.25rem;
+  color: var(--c11);
+  font-weight: 600;
+}
+
+.termos li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  padding-bottom: 24px;
+  color: var(--c10);
+}
+
+@media(max-width:800px){
+  .header{
+    height: 10rem;
+    justify-content: center;
+  }
+  .logo{
+    padding: 1.5rem 1rem; 
+  }
+}
+
+@media(max-width:1080px){
+  .header{
+    gap: 1.4rem;
+    padding: 1rem;
+  }
+
+  .termosContent p{
+    padding-bottom: 1rem;
+  }
+
+  .termosContent h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  .termosContent{
+    margin-bottom: 80px;
+    padding: 2rem;
+  }
+
+  .termos li{
+    font-size: 1rem;
+  }
+
+  .termos ul{
+    margin-left: 5px;
+  }
+
+  .termos{
+    padding-bottom: 3rem;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+}
+

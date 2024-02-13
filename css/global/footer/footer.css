@@ -1,0 +1,63 @@
+.footerBg{
+  width: 100%;
+  background-color: var(--c12);
+}
+
+.containerFooter{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10.25rem;
+}
+
+.containerFooter h3{
+  padding-bottom: 1rem;
+}
+
+.contatoLista{
+  padding-bottom: 1rem;
+}
+
+.containerFooter li{
+  font-size: 1.125rem ;
+  font-family: 'Roboto', sans-serif;
+  color: var(--c5);
+  padding-bottom: 1rem;
+}
+
+.contatoLista li:nth-child(2n){
+  border-bottom: solid 2px var(--c11);
+  width: 100%;
+}
+
+.contatoLista li:nth-child(3){
+  padding-top: 0.7rem;
+}
+
+.redeLista{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.direitosBik{
+  grid-column: 1/-1;
+  }
+@media(max-width:800px){
+  .containerFooter{
+    grid-template-columns: auto;
+    padding: 2rem;
+    gap: 4rem;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+}
+
+.containerFooter a:hover{
+  color: white;
+}
+  

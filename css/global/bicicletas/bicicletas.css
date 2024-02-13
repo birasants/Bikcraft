@@ -1,0 +1,197 @@
+.nossasBik{
+  width: 100%;
+}
+
+.bicicletasBg{
+  display: flex;
+  padding: 3rem;
+  align-content: center;
+}
+
+.bikcraftJpg{
+  display: block;
+  border-radius: 5px 5px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bicicletasItem{
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 2.5rem;
+  padding-bottom: 3.75rem;
+  background: url('../../../img/dec/top-right.svg') no-repeat top 10px right 20px;
+} 
+
+.bicicletasContent{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.bicicletasContent img{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px ;
+}
+
+.bicicletasContent li{
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.bicicletasContent li:last-child{
+  margin-bottom: 0;
+}
+
+.bicicletasContent h1{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.bicicletasContent h1::before{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+  top: -8px;
+}
+
+.bicicletasContent p{
+  grid-column: 1/-1;
+}
+
+.botaoComSeta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url('../../../img/icones/seta.svg');
+  transition: transform 0.2s;
+}
+
+.botaoComSeta:hover::after{
+  transform: translateX(4px);
+}
+
+.bicicletasContent a {
+  display: flex;
+  place-self: end;
+  align-items: center;
+}
+
+.alinhamentoFim{
+  justify-self: flex-end;
+}
+
+.padding{
+  padding-bottom: 0;
+}
+
+.bicicletasBg:nth-child(2){
+  background-color: var(--c11);
+  box-shadow: inset  620px 0  white;
+  margin-bottom: 60px;
+}
+
+
+@media (min-width:840px) and (max-width:1550px){
+  .bicicletasBg:nth-child(2){
+    background-color: var(--c11);
+    box-shadow: inset  320px 0  white;
+  }
+}
+
+@media (max-width:800px) {
+
+  .bicicletasItem{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .bicicletasItem .bicicletasContent{
+    grid-row: 2;
+  }
+
+  .fichaTecnica{
+    width: fit-content;
+  }
+
+  .bikcraftJpg{
+    border-radius: 0%;
+    padding-bottom: 0;
+  }
+
+  .bicicletasContent h1{
+    grid-column: 1/-1;
+    font-size: 2rem;
+  }
+
+  .bicicletasContent br{
+    display: none;
+  }
+
+  .bicicletasContent li{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .bicicletasContent img{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 0;
+  }
+
+  .seta img{
+    width: 18px;
+    height: 10px;
+  }
+
+  .bikeButton{
+    display: flex;
+    width: auto;
+    font-size: 0.9rem;
+  }
+
+
+  .botaoComSeta:hover:after{
+    transform: none;
+  }
+
+
+  .bicicletasBg{
+    display: flex;
+    padding: 0;
+    align-content: center;
+  }
+
+  .bicicletasBg h1{
+    grid-column: 1/-1;
+    font-size: 2rem;
+    color: var(--c11);
+  }
+
+  .bicicletasBg p{
+    color: var(--c11);
+  }
+  
+  .bicicletasBg li{
+    color: var(--c11);
+  }
+  .termosContent{
+    margin-bottom: 60px;
+  }
+
+  .termosContent p{
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}

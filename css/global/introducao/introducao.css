@@ -1,0 +1,78 @@
+.containerIntroBg{
+  width: 100%;
+  background: var(--c12) url('../../../img/dec/bottom-left.svg') no-repeat bottom 160px left 20px;
+  box-shadow: inset 0 -120px #ffffff;
+}
+
+
+.containerIntro{
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Poppins', sans-serif;
+}
+
+.containerIntro{
+  align-items: center;
+}
+
+.conteudoIntro h1{
+  margin-bottom: 2rem;
+  color: var(--w);
+}
+
+.conteudoIntro p{
+  color: #B2B2B2;
+  margin-bottom: 1.5rem;
+}
+
+.bikeButton{
+  padding: 1rem 2rem;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+@media(max-width:1080px){
+  .containerIntro{
+    gap: 1.4rem;
+    padding: 1rem;
+  }
+  .conteudoIntro h1{
+    font-size: 3rem;
+  }
+  .containerIntro p{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .containerIntro br{
+    display: none;
+  }
+  .bikeButton{
+    padding: 0.8rem 0.7rem;
+  }
+  .containerIntroBg{
+    box-shadow: inset 0 -60px var(--w);
+  }
+}
+
+@media(max-width:800px){
+
+  .conteudoIntro h1{
+    font-size: 2.5rem;
+  }
+  .containerIntro{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .bikeButton{
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+  }
+}

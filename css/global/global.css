@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+}
+
+.logo{
+  justify-content: start;
+}

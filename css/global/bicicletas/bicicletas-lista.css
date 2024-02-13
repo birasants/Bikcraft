@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,p{
+  margin: 0;
+}
+
+.escolhaSua p{
+  color:  var(--c8) ;
+}
+.nomeBike{
+  color: var(--c11);
+  display: flex;
+  align-items: center;
+}
+
+.nomeBike::before{
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+  top: 10px;
+  left: -16px;
+  transition: width 0.3 ease;
+  margin-right: 3px;
+  align-self: center;
+}
+
+.escolhaSua a:hover .nomeBike::before{
+  width: 24px;
+}
+.escolhaSua h1{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.escolhaSua{
+  padding-top: 90px;
+  padding-bottom: 8rem;
+}
+
+.escolhaSua ul{
+  display: flex;
+  gap: 40px;
+  padding: 0px 20px 20px 20px;
+  list-style: none;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: auto;
+}
+
+.escolhaSua ul a{
+  display: block;
+}
+
+.escolhaSua img{
+  border: solid 1px transparent;
+  border-radius: 5px;
+}
+
+.escolhaSua img:hover{
+  filter: blur(2px);
+}
+
+@media(max-width: 800px ){
+  .escolhaSua h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .escolhaSua ul{
+    overflow-x: auto;
+    min-width: 280px;
+    padding-bottom: 2rem;
+  }
+
+  .escolhaSua ul li{
+    min-width: 280px;
+    padding: 0 20px 20px 20px 20px;
+  }
+}
+
+@media(max-width: 500px){
+  .escolhaSua ul{
+    overflow-x: auto;
+    min-width: 280px;
+  }
+
+  .escolhaSua ul li{
+    min-width: 280px;
+  }
+
+  .nomeBike::after{
+    width: 8px;
+    height: 8px;
+  }
+}

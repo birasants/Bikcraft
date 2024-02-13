@@ -1,0 +1,137 @@
+@import './global/introducao/header.css';
+@import './global/introducao/introducao.css';
+@import './global/header.css';
+@import './global/global.css';
+@import './global/utilidades/componentes.css';
+@import './global/utilidades/tipografia.css';
+@import './global/bicicletas/bicicletas-lista.css';
+@import'./global/tecnologias/conteudoTecnologia.css';
+@import'./global/parceiros/parceiros.css';
+@import'./global/depoimento/depoimento.css';
+@import'./global/seguros/seguros.css';
+@import'./global/footer/footer.css';
+@import './global/termos/termos.css';
+@import'./global/bicicletas/bicicletas.css';
+@import './global/bicicletas/nimbus.css';
+@import'./global/contato/contato.css';
+@import './global/contato/lojas.css';
+@import'./global/utilidades/formulario.css';
+@import'./global/orcamento/orcamento.css';
+
+h1,
+h2,
+h3,
+p{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  padding-bottom: 0;
+}
+
+:root{
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2E2E2E;
+  --c9:  #404040;
+  --c8:  #595959;
+  --c7:  #717171;
+  --c6:  #9C9C9C;
+  --c5:  #B2B2B2;
+  --c4:  #CCCCCC;
+  --c3:  #DEDEDE;
+  --c2:  #EDEDED;
+  --c1:  #F7F7F7;
+  --w:   #FFFFFF;
+  --p5:  #332200;
+  --p4:  #664400;
+  --p3:  #A66F00;
+  --p2:  #E4A30B;
+  --p1:  #FFBB00;
+}
+
+:root {
+  --cor-0: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #ededed;
+  --cor-3: #dedede;
+  --cor-4: #cccccc;
+  --cor-5: #b2b2b2;
+  --cor-6: #9c9c9c;
+  --cor-7: #717171;
+  --cor-8: #595959;
+  --cor-9: #404040;
+  --cor-10: #2e2e2e;
+  --cor-11: #111111;
+  --cor-12: #000000;
+  --cor-p1: #ffbb00;
+  --cor-p2: #e4a30b;
+  --cor-p3: #a66f00;
+  --cor-p4: #664400;
+  --cor-p5: #332200;
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-1 {
+  color: var(--cor-1);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+.cor-12 {
+  color: var(--cor-12);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+.cor-p2 {
+  color: var(--cor-p2);
+}
+.cor-p3 {
+  color: var(--cor-p3);
+}
+.cor-p4 {
+  color: var(--cor-p4);
+}
+.cor-p5 {
+  color: var(--cor-p5);
+}
+

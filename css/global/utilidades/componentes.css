@@ -1,0 +1,66 @@
+.bikeButton{
+  background-image: linear-gradient(to bottom,#FFBF00,#F2A50C);
+  color: #332200;
+  border: 1px transparent;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.bikeButton:hover{
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+.detalheSpan{
+  color: var(--p1) ;
+}
+
+.header-bg{
+  width: 100%;
+  background-color: var(--c12);
+}
+
+.header{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 6rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-lista{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+.link-lista a{
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1rem 0rem;
+  position: relative;
+}
+
+.link-lista a::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: #fff;
+  margin-top: 4px;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.link-lista a:hover::after{
+  width: 100%;
+}

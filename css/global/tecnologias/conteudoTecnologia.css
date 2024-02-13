@@ -1,0 +1,121 @@
+.tecnologiaBg{
+  width: 100%;
+  background: var(--c11);
+}
+
+.containerTecnologia{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  gap: 4rem;
+}
+
+.containerTecnologia p{
+  padding-bottom: 1.2rem;
+}
+
+.containerTecnologia h1{
+  color: var(--w);
+  padding-bottom: 1.5rem;
+}
+
+.containerTecnologia p{
+  line-height: 2rem;
+}
+
+.linkText h3{
+  text-transform: uppercase;
+  color: var(--p1);
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.linkText h3::after{
+  content: "";
+  width: 0px;
+  height: 4px;
+  display: block;
+  background-color: var(--p1);position: absolute;transition: 0.3s;
+}
+
+.linkText h3:hover::after{
+  width: 100%;
+}
+
+.conteudoText ul{
+  display: flex;
+  gap: 2.5rem ;
+  list-style: none;
+}
+
+.conteudoText ul p{
+  line-height: 1.25rem;
+}
+
+.conteudoText ul h3,p,img{
+  padding-bottom: 0.5rem;
+}
+
+.tecnologiaBg{
+  box-shadow: inset 0 -150px 
+  white, inset 0 140px white;
+}
+
+.tituloIntro{
+  padding-top: 6rem;
+}
+
+@media(max-width:800px){
+  .containerTecnologia{
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .tituloIntro{
+    font-size: 1.25rem;
+    padding-top: 2rem;
+  }
+
+  .containerTecnologia h1{
+    font-size: 2.3rem;
+  }
+
+  .tecnologiaBg{
+    box-shadow: inset 0 -120px 
+    white
+  }
+  .conteudoText ul{
+    display: flex;
+    gap: 2rem ;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .linkText h3{
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width:810px) and (max-width:1000px) {
+  .containerTecnologia{
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .tituloIntro{
+    font-size: 1.25rem;
+    padding-top: 1rem;
+  }
+
+  .linkText h3{
+    padding-bottom: 2rem;
+  }
+  .tecnologiaBg{
+    box-shadow: inset 0 -100px 
+    white
+  }
+}
