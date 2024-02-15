@@ -41,7 +41,8 @@
   transition: 0.3s;
 }
 
-.link-lista a:hover::after{
+.link-lista a:hover::after,
+.link-lista a.ativo::after{
   width: 100%;
 }
 

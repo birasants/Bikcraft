@@ -9,6 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600&family=Roboto&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <title>Bikcraft - Bicicletas Elétricas</title>
@@ -37,17 +38,17 @@
   <section aria-label="introdução" class="containerIntroBg">
     <div class="containerIntro">
       <div class="conteudoIntro">
-        <h1 class="font-1-xxl">
+        <h1 class="font-1-xxl fadeInLeft" data-anime="200">
           Bicicletas feitas sob medida<span class="detalheSpan">.</span>
         </h1>
-        <p class="font-2-m">
+        <p class="font-2-m fadeInLeft" data-anime="250">
           Bicicletas elétricas de alta precisão e qualidade,<br>feitas sob medida para o cliente. Explore o<br> mundo na
           sua
           velocidade com a Bikcraft.
         </p>
-        <a href="./bicicleta.html" class="bikeButton">Selecione a sua</a>
+        <a href="./bicicleta.html" class="bikeButton fadeInDown" data-anime="350">Selecione a sua</a>
       </div>
-      <img src="./img/fotos/introducao.jpg" alt="bicicletaNimbus1">
+      <img src="./img/fotos/introducao.jpg" class="fadeInUp" data-anime="600" alt="bicicletaNimbus1">
 
   </section>
 
@@ -223,6 +224,8 @@
       <p class="font-2-s prata direitosBik">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./JS/plugins/simple-anime.js"></script>
+  <script src="./JS/script.js"></script>
 </body>
 
 </html>

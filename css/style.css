@@ -1,6 +1,5 @@
 @import './global/introducao/header.css';
 @import './global/introducao/introducao.css';
-@import './global/header.css';
 @import './global/global.css';
 @import './global/utilidades/componentes.css';
 @import './global/utilidades/tipografia.css';
@@ -17,6 +16,7 @@
 @import './global/contato/lojas.css';
 @import'./global/utilidades/formulario.css';
 @import'./global/orcamento/orcamento.css';
+@import'./global/utilidades/animtion.css';
 
 h1,
 h2,
